@@ -33,8 +33,18 @@ button {
     border: none;
     cursor: pointer;
 }
+button:hover{
+    background-color: #7371fca4;
+}
 
 #dataClima {
     margin-top: 20px;
     font-size: 18px;
+}
+
+@media screen and (max-width: 400px){
+    #botonBusqueda{
+        margin-top: 10px;
+        
+    }
 }
